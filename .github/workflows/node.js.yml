@@ -26,8 +26,12 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+        
+    - run: git config --global url.https://$GH_ACCESS_TOKEN@github.com/.insteadOf https://github.com/
     - run: npm install --force
     - run: npm run deploy
     - run: npm test
     env:
         CI: ""
+        GOPRIVATE: github.com/DukeBWard/privatemodule
+        GH_ACCESS_TOKEN: ${{ secrets.GH_ACCESS_TOKEN }}

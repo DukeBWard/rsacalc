@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0838cb187b75ac5e33d80fd09151c654",
+    "revision": "50823f192f7f52a6a84dba566a145442",
     "url": "/rsacalc/index.html"
   },
   {

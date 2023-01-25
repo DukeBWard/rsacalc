@@ -1,1 +1,0 @@
-{"version":3,"sources":["App.css"],"names":[],"mappings":"AAAA,KACE,wBACF,CAMA,yBACE,oBACF","file":"main.f7019e97.chunk.css","sourcesContent":["body {\n  background-color: #72A0C1;\n}\n\n.main-wrapper {\n  width: 50vw!important; \n}\n\n.key-input {\n  width: 50vw!important;\n}\n"]}
